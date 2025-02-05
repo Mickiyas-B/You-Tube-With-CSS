@@ -24,6 +24,7 @@
 
 .channel-picture{
     margin-right: 10px;
+    position: relative;
 }
 .channel-picture-icon{
     width: 36px;
@@ -44,7 +45,23 @@
     column-gap: 16px;
     row-gap: 40px;
 } 
-
+                        /* Responsive design  */
+                        
+@media (max-width: 750px){
+    .main-section{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 751px) and (max-width: 999px){
+    .main-section{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1000px){
+    .main-section{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
 
 .video-image{
     position: relative;
@@ -58,3 +75,31 @@
     color: white;
     padding: 6px 4px;
 }
+                        /* <!-- addition exercise for hover pseduo element and class  --> */
+
+/* .channel-picture .profile-viewer{
+    position: absolute;
+
+
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    background-color: rgb(215, 215, 220);
+    border: 1px solid black;
+    padding: 16px 10px;
+    border: none;
+    border-radius: 8px;
+
+    opacity: 0;
+    pointer-events: none;
+
+
+}
+
+.profile-viewer .channel-name{
+    color: black;
+}
+
+.channel-picture:hover .profile-viewer{
+    opacity: 1;
+    z-index: 100;
+} */
