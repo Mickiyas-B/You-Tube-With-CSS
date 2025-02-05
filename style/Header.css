@@ -1,0 +1,130 @@
+.header-container{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgb(247, 245, 243);
+    border-bottom: 1px solid rgb(238, 227, 215);;
+}
+
+
+.middle-side-header{
+    flex: 1;
+    max-width: 500px;
+    margin-left: 65px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-side-container {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+.left-side-header{
+    display: flex;
+    align-items: center;
+}
+.hamburger-menu{
+    height: 20px;
+    margin: 0 24px ;
+}
+
+.youtube-logo{
+    height: 18px;
+}
+
+
+.search-wrap{
+    width: 45px;
+    border: 1px solid rgb(194, 190, 190);
+    border-radius: 0 40px 40px 0;
+    background-color: rgb(234, 234, 234);
+    margin-left: -1px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.search-icon{
+    height: 20px;
+    padding: 6px;
+}
+
+.voice-search-icon {
+    height: 25px;
+    border: .1px solid rgb(194, 190, 190);
+    background-color: rgb(234, 234, 234);
+    border-radius: 20px;
+    border: none;
+}
+
+
+.search-input{
+    width: 100%;
+    border: 1px solid rgb(194, 190, 190);
+    border-radius: 40px 0 0 40px;
+    padding: 8px;
+    font-size: 14px;
+}
+.Create-wrap{
+    height: 18px;
+    padding: 5px 8px;
+    border: .01px solid rgb(228, 228, 228);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(234, 234, 234);
+    
+}
+
+.material-symbols-outlined{
+    width: 15px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.notifications-icon{
+    height: 18px;
+}
+
+.my_profile-icon{
+    height: 23px;
+    border-radius: 20px;
+}
+
+.you-tube-addBe{
+    position: relative;
+}
+
+.add-Be{
+    position: absolute;
+    top: -3px;
+    right: -15px;
+    font-size: 9px;
+    font-weight: 300;
+}
+.notifications{
+    position: relative;
+}
+.notifications-add{
+    position: absolute;
+    top: -4px;
+    right: -15px;
+    font-size: 9px;
+    font-weight: 500;
+    border: 1px solid rgb(237, 234, 234);
+    background-color: rgb(224, 10, 10);
+    color: white;
+    padding: 1px 5px;
+    border-radius: 80px;
+}
