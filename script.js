@@ -1,6 +1,12 @@
 let humburger = document.querySelector('.hamburger-menu');
 let sidebar = document.querySelector('.sidebar');
-let sidebarLink = document.querySelectorAll('.sidebar-link')
+
+
+
+
+// exsercise
+let profile = document.querySelector('.my_profile');
+let main = document.querySelector('.main-section')
 
 
 humburger.addEventListener('click', function(){
@@ -10,3 +16,7 @@ humburger.addEventListener('click', function(){
     // sidebar.style.display = "block"
 })
 
+profile.addEventListener('click', function(){
+
+    main.classList.toggle('show');
+})
